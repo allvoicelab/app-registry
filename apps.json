@@ -521,7 +521,7 @@
     "developer": "AllVoiceLab",
     "sourceUrl": "https://github.com/allvoicelab/AllVoiceLab-MCP",
     "config": {
-      "mcpKey": "browser-use",
+      "mcpKey": "allvoicelab",
       "runtime": "uvx",
       "args": [
         "allvoicelab-mcp"
