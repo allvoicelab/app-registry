@@ -534,7 +534,7 @@
         "prompt": "Convert 'At All Voice Lab, we’re reshaping the future of audio workflows with AI-powered solutions, making authentic voices accessible to creators everywhere.' into voice."
       },
       {
-        "name": "Voice Conversion",
+        "name": "Voice Changer",
         "description": "Transform one voice into another, maintaining the original content while changing the speaker's voice.",
         "prompt": "Convert this to a male voice."
       },
