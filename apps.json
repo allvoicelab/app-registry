@@ -581,7 +581,7 @@
         "label": "Set API key",
         "type": "input",
         "placeholder": "Enter your API key",
-        "value": "Enter your Squad AI API key",
+        "value": "Enter your API key",
         "key": "ALLVOICELAB_API_KEY"
       }
     ]
