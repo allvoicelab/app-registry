@@ -506,5 +506,84 @@
       }
     ],
     "setup": []
+  },
+  {
+    "name": "All Voice Lab",
+    "description": "An All-in-One AI Audio-Video Processing Engine, Reshaping the Future of Sound.",
+    "icon": {
+      "type": "url",
+      "url": {
+        "light": "https://cdn.allvoicelab.com/resources/public/image/mcp/allvoicelab.png"
+      }
+    },
+    "category": "Media",
+    "price": "Subscription",
+    "developer": "AllVoiceLab",
+    "sourceUrl": "https://github.com/allvoicelab/AllVoiceLab-MCP",
+    "config": {
+      "mcpKey": "browser-use",
+      "runtime": "uvx",
+      "args": [
+        "allvoicelab-mcp"
+      ]
+    },
+    "features": [
+      {
+        "name": "Text to Speech",
+        "description": "Convert text into natural-sounding speech using AI-powered voice synthesis.",
+        "prompt": "Convert 'At All Voice Lab, we’re reshaping the future of audio workflows with AI-powered solutions, making authentic voices accessible to creators everywhere.' into voice."
+      },
+      {
+        "name": "Voice Conversion",
+        "description": "Transform one voice into another, maintaining the original content while changing the speaker's voice.",
+        "prompt": "Convert this to a male voice."
+      },
+      {
+        "name": "Remove Background Noise",
+        "description": "Enhance audio quality by removing background noise from recordings, ensuring clear and professional human`s sound.",
+        "prompt": "Remove the background noise."
+      },
+      {
+        "name": "Video Translation",
+        "description": "Translate video content into different languages, synchronizing audio with the original video.",
+        "prompt": "Select a video file (English) and ask: Translate this video to japanese."
+      },
+      {
+        "name": "Remove Subtitles",
+        "description": "Remove subtitles from videos, allowing for a cleaner viewing experience.",
+        "prompt": "Select a video with subtitles and ask: Remove the subtitles from this video."
+      },
+      {
+        "name": "Text Translation",
+        "description": "Translate long text content into different languages, supporting a wide range of languages.",
+        "prompt": "Select a long text (for example, \"The Foolish Old Man Removes the Mountains\") and ask: Translate this text to japanese. If no language is specified, it will be translated to English by default."
+      },
+      {
+        "name": "Subtitle Extraction",
+        "description": "Extract subtitles from videos, providing a text version of the spoken content.",
+        "prompt": "Select a video with subtitles and ask: Extract the subtitles from this video."
+      }
+    ],
+    "setup": [
+      {
+        "label": "Generate an API key",
+        "value": "Sign in at https://www.allvoicelab.com/workbench/api-keys — My Workspace → API Keys — and create a key.",
+        "type": "text"
+      },
+      {
+        "label": "Set Domain",
+        "type": "input",
+        "placeholder": "Enter the service domain",
+        "value": "Enter the service domain",
+        "key": "ALLVOICELAB_API_DOMAIN"
+      },
+      {
+        "label": "Set API key",
+        "type": "input",
+        "placeholder": "Enter your API key",
+        "value": "Enter your Squad AI API key",
+        "key": "ALLVOICELAB_API_KEY"
+      }
+    ]
   }
 ]
